@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+    integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class="score-board">
+        <div class="badge" id="user-label">user</div>
+        <div class="badge" id="computer-label">comp</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+        <p>Paper covers rock. You Win!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <i class="far fa-hand-rock"></i>
+        </div>
+        <div class="choice" id="p">
+            <i class="far fa-hand-paper"></i>
+
+        </div>
+        <div class="choice" id="s">
+            <i class="far fa-hand-scissors"></i>
+        </div>
+    </div>
+    <p id="action-message">Make your move</p>
+    
+
+    <script src="js/app.js"></script>
+</body>
+</html>
